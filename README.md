@@ -1,16 +1,67 @@
-# React + Vite
+# Udemy Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Udemy landing page clone built with **React** and **Vite**.  
+This project implements the page up to the **"Trusted Companies"** section using dummy data stored in JavaScript objects and arrays. No animations or navigation links are included, as per assignment requirements.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive Navbar with search bar and buttons  
+- Hero section with heading, description, and browse button  
+- Featured Courses section showing dummy courses  
+- Top Categories section with category cards  
+- Trusted Companies section showcasing companies  
+- Fully built with React components and CSS styling  
+- Dummy images and text for all sections  
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Component-based UI library  
+- **Vite** – Development server and build tool  
+- **CSS** – Styling for layout and visuals  
+- **JavaScript** – Dummy data and interactivity  
+
+
+
+## Project Structure
+
+src/
+├── assets/
+├── components/
+│ ├── Navbar.jsx
+│ ├── Hero.jsx
+│ ├── FeaturedCourses.jsx
+│ ├── Categories.jsx
+│ ├── TrustedCompanies.jsx
+├── data/
+│ └── dummyData.js
+├── App.jsx
+├── index.css
+├── main.jsx
+
+
+---
+
+## Getting Started
+
+1. Clone the repository:
+git clone https://github.com/mawadaaaa/udemy-landing-page.git
+
+2. Navigate to the project folder:
+cd udemy-landing-page
+
+3. Install dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+
+5. Open your browser at http://localhost:5173 to view the page.
+
+## Notes
+All images use placeholders or free online images.
+
+Buttons and links are static; they do not navigate to other pages.
+
+Styling is kept simple to match assignment requirements.

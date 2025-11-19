@@ -15,7 +15,7 @@ This project implements the page up to the **"Trusted Companies"** section using
 
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React** – Component-based UI library  
 - **Vite** – Development server and build tool  
